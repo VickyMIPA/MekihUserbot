@@ -1,8 +1,8 @@
 <p align="center">
-  <img src="./resources/extras/logo_readme.jpg">
+  <img src="https://telegra.ph/file/d48e4fdd51a3ecedc83f6.png">
 </p>
 <h1 align="center">
-  <b>🌸 Sakura - UserBot</b>
+  <b>💦 Mekih - UserBot</b>
 </h1>
 
 <b>A stable pluggable Telegram userbot + vc music bot, based on Telethon.</b>   
@@ -37,7 +37,7 @@
 ## Deploy to Heroku
 Get the [Necessary Variables](#Necessary-Variables) and then click the button below!  
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/levina-lab/veez_ultrobot/tree/main)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/VickyMIPA/MekihUserbot/tree/main)
 
 ## Deploy Locally
 - [Traditional Method](#local-deploy---traditional-method)
