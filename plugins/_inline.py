@@ -21,7 +21,7 @@ from . import *
 # ================================================#
 notmine = f"ini adalah bot milik {OWNER_NAME}"
 
-TLINK = "https://telegra.ph/file/3a41ceef4778f796c484c.jpg"
+TLINK = "https://telegra.ph/file/d48e4fdd51a3ecedc83f6.png"
 helps = get_string("inline_1")
 
 add_ons = udB.get("ADDONS")
@@ -59,7 +59,7 @@ _main_help_menu = [
 
 SUP_BUTTONS = [
     [
-        Button.url("REPO", url="https://github.com/levina-lab/SakuraUserbot"),
+        Button.url("REPO", url="https://github.com/VickyMIPA/MekihUserbot"),
         Button.url("ADDONS", url="https://github.com/TeamUltroid/UltroidAddons"),
     ],
     [Button.url("SUPPORT", url="t.me/gcsupportbots")],
@@ -73,12 +73,12 @@ SUP_BUTTONS = [
 async def inline_alive(o):
     if len(o.text) == 0:
         b = o.builder
-        MSG = "❁ **SAKURA USERBOT** ❁"
+        MSG = "❁ **MEKIH USERBOT** ❁"
         uptime = grt(time.time() - start_time)
         MSG += f"\n\n❁ **UPTIME** - `{uptime}`\n"
         MSG += f"❁ **OWNER** - `{OWNER_NAME}`"
         WEB0 = InputWebDocument(
-            "https://telegra.ph/file/3a41ceef4778f796c484c.jpg", 0, "image/jpg", []
+            "https://telegra.ph/file/d48e4fdd51a3ecedc83f6.png", 0, "image/jpg", []
         )
         RES = [
             InputBotInlineResult(
@@ -96,7 +96,7 @@ async def inline_alive(o):
                 content=InputWebDocument(TLINK, 0, "image/jpg", []),
             )
         ]
-        await o.answer(RES, switch_pm=f"🌸 SAKURA PORTAL", switch_pm_param="start")
+        await o.answer(RES, switch_pm=f"💦 MEKIH PORTAL", switch_pm_param="start")
 
 
 @in_pattern("ultd")
@@ -433,7 +433,7 @@ async def on_plug_in_callback_query_handler(event):
     await event.edit(
         get_string("inline_5"),
         file=_file_to_replace,
-        buttons=Button.inline("🌸 ᴏᴘᴇɴ ᴀɢᴀɪɴ 🌸", data="open"),
+        buttons=Button.inline("💦 ᴏᴘᴇɴ ᴀɢᴀɪɴ 💦", data="open"),
     )
 
 
@@ -455,7 +455,7 @@ async def on_plug_in_callback_query_handler(event):
         reply_pop_up_alert = f"{plugin_name} tidak memiliki bantuan terperinci."
     else:
         reply_pop_up_alert = help_string
-    reply_pop_up_alert += "\n🌸 @levinachannel"
+    reply_pop_up_alert += "\n💦 @xenxust"
     buttons = [
         [
             Button.inline(
@@ -514,7 +514,7 @@ async def on_plug_in_callback_query_handler(event):
         reply_pop_up_alert = f"{plugin_name} tidak memiliki bantuan terperinci."
     else:
         reply_pop_up_alert = help_string
-    reply_pop_up_alert += "\n🌸 @levinachannel"
+    reply_pop_up_alert += "\n💦 @xenxust"
     buttons = [
         [
             Button.inline(
