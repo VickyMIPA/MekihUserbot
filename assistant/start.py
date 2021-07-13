@@ -72,7 +72,7 @@ async def ultroid(event):
                 "`saya tidak bekerja didalam grup`",
                 buttons=[
                     Button.url(
-                        "🌸 sᴛᴀʀᴛ 🌸", url=f"https://t.me/{asst.me.username}?start=set"
+                        "💦 sᴛᴀʀᴛ 💦", url=f"https://t.me/{asst.me.username}?start=set"
                     )
                 ],
             )
@@ -87,9 +87,9 @@ async def ultroid(event):
             u = await event.client.get_entity(event.chat_id)
             if not udB.get("STARTMSG"):
                 if udB.get("PMBOT") == "True":
-                    ok = "🌸 anda bisa kirim pesan ke tuan saya melalui bot ini.\n\n🌸 kirimkan pesan mu, saya akan meneruskan nya ke tuan saya."
+                    ok = "💦 anda bisa kirim pesan ke tuan saya melalui bot ini.\n\n💦 kirimkan pesan mu, saya akan meneruskan nya ke tuan saya."
                 await event.reply(
-                    f"🌸 hai [{get_display_name(u)}](tg://user?id={u.id}), ini adalah sakura asisstant bot milik [{ultroid_bot.me.first_name}](tg://user?id={ultroid_bot.uid})!\n\n{ok}",
+                    f"💦 hai [{get_display_name(u)}](tg://user?id={u.id}), ini adalah sakura asisstant bot milik [{ultroid_bot.me.first_name}](tg://user?id={ultroid_bot.uid})!\n\n{ok}",
                     buttons=[Button.inline("Info.", data="ownerinfo")],
                 )
             else:
