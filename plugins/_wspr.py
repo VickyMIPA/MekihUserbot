@@ -159,7 +159,7 @@ async def _(e):
         if e.sender_id in buddhhu[ids]:
             await e.answer(snap[ids], alert=True)
         else:
-            await e.answer("🌸 pesan ini bukan untukmu 🌸", alert=True)
+            await e.answer("💦 pesan ini bukan untukmu 💦", alert=True)
     else:
         await e.answer("pesan telah dihapus", alert=True)
 
