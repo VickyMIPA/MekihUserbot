@@ -152,14 +152,14 @@ async def _(e):
 async def repo(e):
     res = [
         await e.builder.article(
-            title="sakura userbot",
+            title="mekih userbot",
             description="USERBOT | TELETHON",
             thumb=wb(ultpic, 0, "image/jpeg", []),
-            text="🌸 **SAKURA USERBOT** 🌸",
+            text="💦 **MEKIH USERBOT** 💦",
             buttons=SUP_BUTTONS,
         ),
     ]
-    await e.answer(res, switch_pm="𝑺𝒂𝒌𝒖𝒓𝒂 𝑹𝒆𝒑𝒐.", switch_pm_param="start")
+    await e.answer(res, switch_pm="𝓜𝓮𝓴𝓲𝓱 𝓡𝓮𝓹𝓸.", switch_pm_param="start")
 
 
 @in_pattern("go")
@@ -421,7 +421,7 @@ async def _(e):
     await e.answer(modss, switch_pm="Search Mod Applications.", switch_pm_param="start")
 
 
-@in_pattern("ebooks")
+@in_pattern("ebooks")i
 @in_owner
 async def clip(e):
     try:
