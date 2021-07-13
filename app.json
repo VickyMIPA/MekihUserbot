@@ -1,6 +1,6 @@
 {
-    "name": "Sakura UserBot",
-    "description": "pluggable telegram userbot, made in python using telethon, by veez project",
+    "name": "Mekih UserBot",
+    "description": "pluggable telegram userbot, made in python using telethon, by Mekih project",
     "logo": "https://telegra.ph/file/ccee9a6fff4d1fb03adf9.jpg",
     "keywords": [
         "Telethon",
@@ -9,7 +9,7 @@
         "python",
         "ultroid"
     ],
-    "repository": "https://github.com/levina-lab/SakuraUserbot",
+    "repository": "https://github.com/VickyMIPA/MekihUserbot",
     "website": "https://ultroid.tech",
     "success_url": "https://t.me/levinachannel",
     "stack": "container",
